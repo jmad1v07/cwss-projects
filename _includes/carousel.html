@@ -1,0 +1,23 @@
+<div id="cwssProjects" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+        {% for item in site.data.carousel.carousel %}
+        <div class="carousel-item {% if forloop.first %}active{% endif %}">
+            <img src="{{site.baseurl}}{{ item.image }}" class="d-block w-100 carousel-img" alt="{{ item.alt_text }}">
+            <div class="carousel-caption carousel-caption-left p-5">
+                <h3>{{ item.title }}</h3>
+                <p>{{ item.text }}</p>
+                <p class="funding">{{ item.funding }}</p>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+
+    <button class="carousel-control-prev" type="button" data-bs-target="#cwssProjects" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#cwssProjects" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+    </button>
+</div>

@@ -1,0 +1,91 @@
+/* Landing image */
+.landing-div {
+    height: calc(100vh - 56px);
+    min-height: calc(100vh - 56px);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat no-repeat;
+    background: linear-gradient(to bottom, rgba(33, 68, 120, 1), rgba(255, 255, 255, 0.05)), url("/assets/img/gemini_image_aus.jpg");
+}
+
+.landing-text{
+    text-align: center;
+    color: white;
+}
+
+.btn-landing{
+    background-color: rgba(255, 255, 255, 0.75);
+    color: rgba(33, 68, 120, 1);
+}
+
+/* Make carousel fill whole viewport below navbar */
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.carousel-inner {
+    height: calc(100vh - 56px);
+    /* Adjust 56px for your navbar height */
+    display: flex;
+    flex-grow: 1;
+}
+
+.carousel-item {
+    height: 100vh;
+    width: 100%;
+}
+
+/* Styling for text box within carousel */
+.carousel-caption-left {
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 70%;
+    text-align: left;
+    color: white;
+    background-color: rgba(33, 68, 120, 0.75);
+}
+
+/*Make carousel image full screen on resizing, for this it must have a fixed dimension. 
+Therefore, set height to viewport below navbar:
+https://stackoverflow.com/questions/34247337/object-fit-not-affecting-images#:~:text=For%20object%2Dfit%20to%20work,thus%20object%2Dfit%20cannot%20work.&text=...and%20the%20browser%20will,completely%20fill%20its%20container%27s%20space.*/
+.carousel-img {
+    object-fit: cover;
+    height: calc(100vh - 56px);
+}
+
+.funding {
+    font-style: italic;
+}
+
+/* Navbar */
+.navbar {
+    background-color: rgba(33, 68, 120, 1);
+}
+
+.header-logo {
+    width: 50px;
+    height: 50px;
+}
+
+
+/* Map*/
+.maplibregl-popup {
+    max-width: 400px;
+    font: 20px/30px;
+    color: white;
+}
+
+.maplibregl-popup-content {
+    background-color: rgba(33, 68, 120, 0.75);
+}
+
+/*Make background of tip transparent*/
+.maplibregl-popup-tip {
+    background-color: rgba(255, 255, 255, 0);
+}
+
+#map { height: 100%; }
