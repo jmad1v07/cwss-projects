@@ -38,8 +38,36 @@ body {
     width: 100%;
 }
 
-/* Styling for text box within carousel */
+
+
+/* 
+Styling for text box within carousel 
+Use left positioned text on medium size devices and above
+*/
+
 .carousel-caption-left {
+    left: 0;
+    top: 0;
+    bottom: 50%;
+    right: 0;
+    text-align: left;
+    color: white;
+    background-color: rgba(33, 68, 120, 0.75);
+}
+
+
+@media (min-width: 768px) {
+    .carousel-caption-left {
+        left: 0;
+        top: 0;
+        bottom: 0;
+        right: 70%;
+        text-align: left;
+        color: white;
+        background-color: rgba(33, 68, 120, 0.75);
+    }
+}
+/* .carousel-caption-left {
     left: 0;
     top: 0;
     bottom: 0;
@@ -47,7 +75,7 @@ body {
     text-align: left;
     color: white;
     background-color: rgba(33, 68, 120, 0.75);
-}
+} */
 
 /*Make carousel image full screen on resizing, for this it must have a fixed dimension. 
 Therefore, set height to viewport below navbar:
