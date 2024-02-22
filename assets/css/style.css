@@ -5,9 +5,9 @@
     min-width: 100vw;
     background-size: cover;
     background-position: center;
-    background-repeat: no-repeat no-repeat;
+    background-repeat: no-repeat;
     /* background: linear-gradient(to bottom, rgba(33, 68, 120, 1), rgba(255, 255, 255, 0.05)); */
-    background: linear-gradient(to bottom, rgba(33, 68, 120, 1), rgba(255, 255, 255, 0.05)), url("../img/gemini_image_aus.jpg");
+    background-image: linear-gradient(to bottom, rgba(33, 68, 120, 1), rgba(255, 255, 255, 0.05)), url("../img/gemini_image_aus.jpg");
 }
 
 .landing-text{
