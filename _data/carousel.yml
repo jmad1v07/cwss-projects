@@ -1,16 +1,12 @@
 carousel:
-  - image: "/assets/img/RiCC_project.jpg"
-    alt_text: "Photo of native Banksia woodland at Whiteman Park."
-    title: "Recharge in a Changing Climate (RiCC) project"
-    text: "Recharge in a Changing Climate (RiCC) project, under the inputs and funding of the DWER. By the establishment of seven monitoring sites on the Swan Coastal Plain, RiCC focuses on understanding biogeophysical processes affecting fluxes of water that recharge our aquifers (paramount for water resources managers). The team is actively working on several important outputs. Not only we are providing multiseasonal recharge estimates, but they characterize its heterogeneity at the plot and larger scales through hydrogephysics and remote sensing and produce GIS tools."
-    funding: "Funding provided by the Department of Water and Environmental Regulation."
-  - image: "/assets/img/OzCZO.jpg"
-    alt_text: "Photo of the VMS installation at UWA’s Ridgefield farm as B&T drillers line up the rig at the Avon River OzCZO site”.
-    title: "The Australian CZO network (OzCZO) project"
-    text: "This project consists of multiple Critical Zone Observatories (CZOs) across the Australian continent that are designed for advanced studies of biogeochemical processes and elemental/isotope cycles within near-surface reservoirs, including vegetation, soils, vadose zone and groundwater. Led by a collaborative effort among leading universities including the University of Western Australia, the University of Adelaide, the University of the Sunshine Coast, James Cook University, and the University of New South Wales. Partnering with national research infrastructure projects TERN and AuScope, OzCZO fills crucial gaps in environmental monitoring, particularly regarding soil dynamics, root zones, and integrated processes within the critical zone. By openly sharing data through platforms like TERN data portal, OzCZO facilitates comprehensive understanding across critical zone domains. This initiative addresses fundamental questions regarding ecosystem resilience, carbon stability, groundwater dynamics, and the impact of land use and climate change on Australia's vital resources."
-    funding: "Funding is part of the Australian Research Council’s Large Infrastructure, Equipment and Facilities scheme (ARC LIEF)— provided by the Australian Government."
-  - image: "/assets/img/TERN.jpg”
-    alt_text: "Photo of the Boyagin Wandoo flux tower”.
-    title: "TERN-WA Project"
-    text: "The three monitoring sites (Gingin, Boyagin and Great Western Woodlands) cover a biodiverse ecological and climate gradient. New equipment at these sites will enable improved characterisation of water cycle processes across these landscapes, particularly in linking ecosystem stress to drivers such as temperature and water stress."
-    funding: "Funding is provided by NCRIS Terrestrial Ecosystem Research Network (TERN) and WA State Government co-investment from WA Department of Jobs, Tourism, Science & Innovation (JTSI)."
+  - image: "/assets/img/ccai_labasa_flood_unosat.jpg"
+    alt_text: "Flooding in Fiji."
+    title: "Detecting flooding in Fiji's croplands”
+    text: "Developing machine learning tools to convert satellite images into land cover and flood maps with Fiji's Ministry of Agriculture."
+    funding: "Funding provided by a Climate Change AI Innovation Grant."
+  - image: "/assets/img/hunga_haapai_trees.jpg"
+    alt_text: "Croplands impacted by Hunga Ha'apai eruption."
+    title: "Mapping Pacific agricultural landscapes"
+    text: "An open-source farm mapping system was built with Tonga's Ministry of Agriculture which has been used to map tens of thousands of farms to guide disaster response after the Hunga Tonga - Hunga Ha'apai volcanic eruption."
+    funding: "Funding provided by ACIAR."
+
