@@ -39,7 +39,12 @@ body {
     width: 100%;
 }
 
-
+/* Carousel arrows at bottom of page */
+.carousel-arrows {
+    position: absolute;
+    bottom: 15%;
+    width: 100%;
+  }
 
 /* 
 Styling for text box within carousel 
