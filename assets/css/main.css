@@ -1,7 +1,7 @@
-/* Landing image */
+/* Landing image - navbar is 56px*/
 .landing-div {
-    height: calc(100vh - 56px);
-    min-height: calc(100vh - 56px);
+    height: calc(100vh - 150px);
+    min-height: calc(100vh - 150px);
     min-width: 100vw;
     background-size: cover;
     background-position: center;
